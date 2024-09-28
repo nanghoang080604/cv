@@ -18,81 +18,89 @@
             background-color: #f4f4f4;
             color: #333;
             line-height: 1.6;
+            height: 100vh;
+            overflow: hidden;
         }
 
         .container {
             display: flex;
-            width: 90%;
+            flex-direction: row;
+            width: 100%;
+            height: 100vh;
             max-width: 1200px;
-            margin: 20px auto;
+            margin: 0 auto;
             background-color: white;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .left-column,
-        .right-column {
-            padding: 20px;
-            flex: 1;
+            overflow-y: auto;
         }
 
         .left-column {
-            background-color: #e8f0f2;
+            padding: 10px;
+            flex: 0.4;
+            /* Chiếm 30% chiều rộng */
+            background-color: #add8e6;
             border-right: 2px solid #333;
+            overflow-y: auto;
         }
 
         .right-column {
-            padding: 20px;
+            padding: 10px;
+            flex: 0.6;
+            /* Chiếm 70% chiều rộng */
+            overflow-y: auto;
         }
 
         .profile-section {
             text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .profile-section .avatar {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
             margin-bottom: 10px;
         }
 
+        .profile-section .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+
         h1 {
-            font-size: 24px;
+            font-size: 18px;
             margin-bottom: 5px;
         }
 
         h2 {
-            font-size: 18px;
+            font-size: 14px;
             font-weight: normal;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             color: #666;
         }
 
         h3 {
-            font-size: 18px;
+            font-size: 16px;
             color: #333;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             text-transform: uppercase;
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 3px;
         }
 
         p {
-            margin-bottom: 10px;
+            margin-bottom: 5px;
+            font-size: 12px;
         }
 
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         ul {
             list-style-type: disc;
-            margin-left: 20px;
+            margin-left: 15px;
+            font-size: 12px;
         }
 
         ul li {
-            margin-bottom: 5px;
+            margin-bottom: 3px;
         }
     </style>
 </head>
@@ -113,6 +121,7 @@
                 <p><strong>Điện thoại:</strong> 0989048514</p>
                 <p><strong>Email:</strong> vuhoang080604@gmail.com</p>
                 <p><strong>Địa chỉ:</strong> 211b/23, P8, Q8, TPHCM</p>
+                <p><strong>Link github:</strong> <a href="https://github.com/nanghoang080604">https://github.com/nanghoang080604</a></p>
             </div>
 
             <div class="section">
@@ -156,6 +165,7 @@
                 <p>Xây dựng web bán đồng hồ</p>
                 <p>Xây dựng app quản lý bán điện thoại</p>
                 <p>Xây dựng web quản lý thư viện</p>
+                <p>Xây dựng phần mềm nhận diện biển báo giao thông</p>
             </div>
 
             <div class="section">
@@ -168,8 +178,7 @@
             <div class="section">
                 <h3>THÔNG TIN THÊM</h3>
                 <p>Những thông tin khác</p>
-                <p>FB: https://www.facebook.com/nangne0806?mibextid=ZbWKwL </p>
-                <p></p>
+                <p>FB: <a href="https://www.facebook.com/nangne0806?mibextid=ZbWKwL"> Here </a> </p>
             </div>
         </div>
     </div>
